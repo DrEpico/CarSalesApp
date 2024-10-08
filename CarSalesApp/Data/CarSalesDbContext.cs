@@ -20,7 +20,7 @@ namespace CarSalesApp.Data
         }
 
         // Specify the database table(s)
-        public DbSet<Car> Car => Set<Car>();
+        public DbSet<Car> Cars => Set<Car>();
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
